@@ -1,0 +1,1 @@
+draw_sprite_ext(spr_archer_arrow, -1, x, y, -1, yscale, direction, c_white, 1)
