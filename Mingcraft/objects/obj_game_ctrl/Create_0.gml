@@ -21,6 +21,7 @@ global.rythm1 = ord("1")
 global.rythm2 = ord("2")
 global.rythm3 = ord("3")
 global.rythm4 = ord("4")
+global.rythm5 = vk_space
 
 randomize()
 //global.lp_up = ord("W")
