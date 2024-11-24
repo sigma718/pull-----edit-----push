@@ -1,3 +1,5 @@
-draw_text(x, y, global.tension)
-draw_text(x + 30, y, obj_lock_pick_fr.coly)
-draw_text(x + 30, y+30, obj_lock_pick_fr.fine)
+draw_self()
+draw_sprite(spr_tension_meter_pin, 0, x + global.tension*20, y)
+
+draw_set_color(c_black)
+draw_text(x, y - 70, "Tension")

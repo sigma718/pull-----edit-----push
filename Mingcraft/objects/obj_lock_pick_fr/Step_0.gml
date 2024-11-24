@@ -30,4 +30,71 @@ coly = y + lengthdir_y(point_distance(200, 20, 785, 74), point_direction(200, 20
 }
 
 if fin1 = true and fin2 = true and fin3 = true and fin4 = true and fin5 = true
-{show_message("win")}
+{
+a = a + 1
+if a = 30
+{
+room_goto(room_hub)
+}
+}
+
+if keyboard_check(global.go_left) = true
+{x = x - 5}
+if keyboard_check(global.go_right) = true
+{x = x + 5}
+
+if keyboard_check(global.tension_up) = true
+{
+if fine = true
+{
+global.tension = global.tension + 0.01
+}
+else
+{
+global.tension = global.tension + 0.1	
+}
+}
+
+if keyboard_check(global.tension_down) = true
+{
+if fine = true
+{
+global.tension = global.tension - 0.01
+}
+else
+{
+global.tension = global.tension - 0.1	
+}
+}
+
+if keyboard_check(global.go_down) = true
+{
+if fine = true
+{
+image_angle = image_angle - 0.1
+}
+else
+{
+image_angle = image_angle - 0.5
+}
+}
+
+if keyboard_check(global.go_up) = true
+{
+if fine = true
+{
+image_angle = image_angle + 0.1
+}
+else
+{
+image_angle = image_angle + 0.5
+}
+}
+
+if keyboard_check_pressed(global.fine_shift) = true
+{
+if fine = false {fine = true}
+else {fine = false}
+}
+
+global.tension = clamp(global.tension, 0, 10)

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tension_meter",
-    "path": "sprites/spr_tension_meter/spr_tension_meter.yy",
+    "name": "spr_tension_meter_bg",
+    "path": "sprites/spr_tension_meter_bg/spr_tension_meter_bg.yy",
   },
   "solid": false,
   "visible": true,

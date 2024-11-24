@@ -2,6 +2,7 @@ var selectatron = irandom(3)
 if selectatron = 0 
 {
 var selectalectatron = irandom(2)
+
 switch selectalectatron
 {
 case 0: instance_create_layer(x, y, "Instances_1", obj_rithm_tap_large)	break
