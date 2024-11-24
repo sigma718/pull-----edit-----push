@@ -5,7 +5,7 @@ keyup = keyboard_check(ord("W"))
 keydown =  keyboard_check(ord("S"))
 keyactivate = keyboard_check_pressed(vk_space)
 keyattack = keyboard_check_pressed(mouse_check_button_pressed(mb_left))
-keyItem = keyboard_check_pressed(vk_alt)
+keyItem = keyboard_check(ord("F"))
 #endregion
 #region Movement direction
 //direction

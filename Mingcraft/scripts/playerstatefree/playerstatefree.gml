@@ -22,7 +22,8 @@ function playerstatefree(){
 	if (inputmagnitude != 0)
 	{
 		direction = inputdirection
-		sprite_index = spriterun
+		sprite_index = spriterunR
+		image_speed = 1
 	}else{
 		sprite_index = spriteidle
 	}
@@ -31,7 +32,6 @@ function playerstatefree(){
 		localframe = 0
 	}
 	//Image direction 
-	Player_animation()
 	#endregion
 	#region Movement
 	x += hsp

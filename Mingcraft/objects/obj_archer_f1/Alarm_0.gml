@@ -1,6 +1,8 @@
-track = false
-point_x = irandom_range(200, 800)
-point_y = irandom_range(200, 400)
-point = point_direction(x, y, point_x, point_y)
-diff = angle_difference(point, direction)
-alarm[4] = room_speed
+track = true
+path_speed = 0
+point = point_direction(x,y,obj_player.x,obj_player.y)
+if (point <= 90 or point >= 270){
+	sprite_index = spr_archerR
+	image_xscale = -1
+}
+alarm[1] = room_speed

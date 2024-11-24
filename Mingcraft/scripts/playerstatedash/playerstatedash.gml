@@ -10,7 +10,7 @@ function playerstatedash(){
 	y += vsp
 	//Sprite
 	sprite_index = spriteroll
-	var totalframes = sprite_get_number(sprite_index/4)
+	var totalframes = sprite_get_number(sprite_index)
 	image_index = (cardinal_dir * totalframes) + ((1 - (distanceremain / rolldis)) * totalframes)
 	//Statechange
 	if (distanceremain <= 0) 
