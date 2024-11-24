@@ -174,9 +174,9 @@
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_6AB93C12","path":"rooms/Rm_medieval_cell/Rm_medieval_cell.yy",},
-    {"name":"inst_2F4B6B08","path":"rooms/Rm_medieval_cell/Rm_medieval_cell.yy",},
-    {"name":"inst_BB545EE","path":"rooms/Rm_medieval_cell/Rm_medieval_cell.yy",},
+    {"name":"inst_6AB93C12","path":"rooms/Rm_medieval_f1/Rm_medieval_f1.yy",},
+    {"name":"inst_2F4B6B08","path":"rooms/Rm_medieval_f1/Rm_medieval_f1.yy",},
+    {"name":"inst_BB545EE","path":"rooms/Rm_medieval_f1/Rm_medieval_f1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
@@ -204,7 +204,7 @@
     "path": "folders/Daniel/Rooms.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Rm_medieval_cell",
+  "name": "Rm_medieval_f1",
   "tags": [],
   "resourceType": "GMRoom",
 }

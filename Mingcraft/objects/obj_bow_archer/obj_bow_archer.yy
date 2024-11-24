@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_archer",
-    "path": "sprites/spr_archer/spr_archer.yy",
+    "name": "spr_bow",
+    "path": "sprites/spr_bow/spr_bow.yy",
   },
   "solid": false,
   "visible": true,
@@ -22,9 +22,7 @@
   "physicsShapePoints": [],
   "eventList": [
     {"isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":8,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":false,"eventNum":1,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -33,7 +31,7 @@
     "path": "folders/Daniel/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_archer_f1",
+  "name": "obj_bow_archer",
   "tags": [],
   "resourceType": "GMObject",
 }

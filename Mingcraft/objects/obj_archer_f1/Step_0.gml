@@ -1,10 +1,10 @@
 if track = true
 {	
-	path_speed = 0
+
 }
 
 if track = false{
-	path_speed = 3
+
 }
 
 
