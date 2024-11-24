@@ -121,8 +121,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "menu",
-    "path": "folders/Ethan/menu.yy",
+    "name": "books",
+    "path": "folders/Ethan/menu/books.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_menu_page_eraser",

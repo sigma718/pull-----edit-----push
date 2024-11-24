@@ -24,8 +24,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "menu",
-    "path": "folders/Ethan/menu.yy",
+    "name": "books",
+    "path": "folders/Ethan/menu/books.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_menu_text",
