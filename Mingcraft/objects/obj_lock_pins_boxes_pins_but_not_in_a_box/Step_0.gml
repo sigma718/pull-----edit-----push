@@ -106,3 +106,13 @@ obj_lock_pick_fr.fin5 = false
 }
 break
 }
+
+if keyboard_check(global.go_up) = true
+{
+if obj_lock_pick_fr.coly < 450 {downing = false}
+}
+
+if keyboard_check_pressed(global.go_down) = true
+{
+downing = true	
+}

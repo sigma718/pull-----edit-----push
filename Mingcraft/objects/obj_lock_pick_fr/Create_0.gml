@@ -7,3 +7,5 @@ fin2 = false
 fin3 = false
 fin4 = false
 fin5 = false
+
+a=0

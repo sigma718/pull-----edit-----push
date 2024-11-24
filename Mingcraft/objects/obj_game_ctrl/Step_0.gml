@@ -22,3 +22,8 @@ if instance_exists(obj_menu) = false
 	instance_destroy(obj_menu_tab_3)
 	instance_destroy(obj_menu_bg)
 }
+
+if room = room_nothing 
+{
+room_goto(room_hub)
+}
